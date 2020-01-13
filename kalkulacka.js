@@ -1,7 +1,7 @@
 let cenaNafty = 33;
 let spotrebaNa100 = 6.5;
 let vzdalenost = 145;
-let pocetlidi = 4;
+let pocetLidi = 4;
 
 const nadpis = "              kalkulacka cestovnich nakladu               ";
 console.log(nadpis);
@@ -20,5 +20,5 @@ console.log(`Cena za 1Km = ${cenaZaKm} Kc`);
 let textZaVzdalenost = cenaZaKm * vzdalenost;
 console.log(`Celkova cena za vzdalenost ${textZaVzdalenost} Kc`);
 
-let cenaNaOsobu = Math.ceil(textZaVzdalenost / pocetlidi);
+let cenaNaOsobu = Math.ceil(textZaVzdalenost / pocetLidi);
 console.log(`Zaokrouhlena cena na osobu je ${cenaNaOsobu} Kc`);
