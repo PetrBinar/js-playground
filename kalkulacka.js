@@ -1,24 +1,21 @@
-let cenaNafty = 33;
-let spotrebaNa100 = 6.5;
-let vzdalenost = 145;
-let pocetLidi = 4;
+// Vstupni hodnoty
+const cenaNafty = 33;
+const spotrebaNa100 = 6.5;
+const vzdalenost = 145;
+const pocetLidi = 4;
 
-const nadpis = "              kalkulacka cestovnich nakladu               ";
-console.log(nadpis);
+// Vypocet
+const cenaZaKm = (cenaNafty * spotrebaNa100) / 100;
+const textCenaZaVzdalenost = cenaZaKm * vzdalenost;
+const cenaNaOsobu = Math.ceil(textCenaZaVzdalenost / pocetLidi);
 
-let textCenaNafty = `Cena nafty ${cenaNafty} Kc/l`;
-console.log(textCenaNafty);
-let textSpotrebaNa100 = `Spotreba nafty ${spotrebaNa100} l/100Km`;
-console.log(textSpotrebaNa100);
+// Vypis do konzole
+console.log(`               Kalkulacka cestovnich nakladu 
 
-let textUjetaVzdalenost = `Ujeta vzdalenost = ${vzdalenost} Km`;
-console.log(textUjetaVzdalenost);
+    Cena nafty                      =   ${cenaNafty} Kc/l
+    Spotreba nafty                  =   ${spotrebaNa100} l/100Km
+    Ujeta vzdalenost                =   ${vzdalenost} Km
 
-let cenaZaKm = (cenaNafty * spotrebaNa100) / 100;
-console.log(`Cena za 1Km = ${cenaZaKm} Kc`);
-
-let textCenaZaVzdalenost = cenaZaKm * vzdalenost;
-console.log(`Celkova cena za vzdalenost ${textCenaZaVzdalenost} Kc`);
-
-let cenaNaOsobu = Math.ceil(textCenaZaVzdalenost / pocetLidi);
-console.log(`Zaokrouhlena cena na osobu je ${cenaNaOsobu} Kc`);
+    Cena za 1Km                     =   ${cenaZaKm} Kc
+    Celkova cena za vzdalenost      =   ${textCenaZaVzdalenost} Kc
+    Zaokrouhlena cena na osobu je   =   ${cenaNaOsobu} Kc`);
