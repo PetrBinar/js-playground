@@ -11,3 +11,11 @@ This is experimental file
 ```js
 const myArray = ["pavel", "petr", "jirik", "ali"];
 ```
+
+function nasobeniDvema(cisloKNasobeni) {
+return cisloKNasobeni \* 2;
+}
+
+const vysledek = nasobeniDvema(666);
+
+console.log(nasobeniDvema(2));
