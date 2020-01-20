@@ -16,12 +16,5 @@ function spocitejSpotrebu(cenaNafty, spotrebaNa100, vzdalenost, pocetLidi) {
     Zaokrouhlena cena na osobu je   =   ${cenaNaOsobu} Kc`);
 }
 
-//spocitejSpotrebu(30, 6, 500, 3);
-
-function nasobeniDvema(cisloKNasobeni) {
-  return cisloKNasobeni * 2;
-}
-
-const vysledek = nasobeniDvema(666);
-
-console.log(nasobeniDvema(2));
+spocitejSpotrebu(30, 6, 500, 3);
+spocitejSpotrebu(10, 20, 40, 2);
