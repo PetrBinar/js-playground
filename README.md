@@ -16,6 +16,10 @@ This is experimental file
 const myArray = ["pavel", "petr", "jirik", "ali"];
 ```
 
+```
+const myArray = ["pavel", "petr", "jirik", "ali"];
+```
+
 function nasobeniDvema(cisloKNasobeni) {
 return cisloKNasobeni \* 2;
 }
