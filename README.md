@@ -6,6 +6,8 @@ This is experimental file
 
 - [zakladni prikazy](zakladni-prikazy.md)
 
+---
+
 ## Todo
 
 - Learn about [Markdown](https://guides.github.com/features/mastering-markdown/)
@@ -20,6 +22,9 @@ const myArray = ["pavel", "petr", "jirik", "ali"];
 const myArray = ["pavel", "petr", "jirik", "ali"];
 ```
 
+## nasobeni dvema
+
+```js
 function nasobeniDvema(cisloKNasobeni) {
 return cisloKNasobeni \* 2;
 }
@@ -27,3 +32,4 @@ return cisloKNasobeni \* 2;
 const vysledek = nasobeniDvema(666);
 
 console.log(nasobeniDvema(2));
+```
