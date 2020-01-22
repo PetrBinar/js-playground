@@ -14,3 +14,28 @@ const animals = ["Grizzly Bear", "Sloth", "Sea Lion"];
 for (let index = 0; index < animals.length; index++) {
   console.log("animals " + animals[index]);
 }
+
+const vacationSpots = [
+  "Paris",
+  "Tulum",
+  "Kajlovec",
+  "Bali",
+  "Hradec nad Moravici"
+];
+// for (let index = 0; index < animals.length; index++) {
+
+for (let index = 0; index < vacationSpots.length; index++) {
+  let mesto = vacationSpots[index];
+
+  if (mesto === "Bali") {
+    console.log(`Pojedu na ${mesto}`);
+  } else {
+    console.log(`I would love to visit ${mesto}`);
+  }
+}
+
+// console.log("-------------------------------------------");
+
+// for (const index in vacationSpots) {
+//   console.log("I would love to visit " + vacationSpots[index]);
+// }
