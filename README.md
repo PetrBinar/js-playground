@@ -33,3 +33,10 @@ const vysledek = nasobeniDvema(666);
 
 console.log(nasobeniDvema(2));
 ```
+
+## automaticky refresh html
+
+- spustit VScode
+- otevrit terminal
+- najet do slozky `front-end`
+- spustit `npm start`
